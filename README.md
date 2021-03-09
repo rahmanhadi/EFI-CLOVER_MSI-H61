@@ -12,3 +12,6 @@ Hardware list :
 - BCM94331 with mini pcie to pcie adapter for desktop
 - Samsung DVDRW for Desktop
 - Seasonic SS-300TFX 80+ Bronze
+
+
+- visit : https://github.com/rahmanhadi/EFI-CLOVER_MSI-H61
