@@ -1,0 +1,74 @@
+20:870  0:216  Found BIOS RSDP at F0490
+20:870  0:000  Saving ACPI tables from RSDP F0490 to EFI\CLOVER\ACPI\origin ...
+20:870  0:000   F0490: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+20:885  0:014    (Xsdt: DE2A8078, Rsdt: DE2A8028)
+20:885  0:000    DE2A8078: 'XSDT', 'A M I', Rev: 1, Len: 108 -> XSDT.aml
+20:900  0:014    DE2A8028: 'RSDT', 'A M I', Rev: 1, Len: 72 -> RSDT.aml
+20:915  0:015    Tables in Xsdt: 9
+20:915  0:000    0. DE2B23B8: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+20:934  0:019        (Dsdt: DE2A8178, Facs: DE2B6080, XDsdt: DE2A8178, XFacs: 0)
+20:934  0:000        DE2A8178: 'DSDT', 'A M I', Rev: 2, Len: 41529 -> DSDT.aml
+20:952  0:017        DE2B6080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+20:967  0:014    1. DE2B24C8: 'APIC', 'A M I', Rev: 3, Len: 114 -> APIC.aml
+20:981  0:014    2. DE2B2540: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+20:997  0:015    3. DE2B2588: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+21:011  0:014    4. DE2B25C8: 'SSDT', 'AoacTabl', Rev: 1, Len: 2075 -> SSDT-0-AoacTabl.aml
+21:026  0:014    5. DE2B2DE8: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+21:041  0:014    6. DE2B2E20: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-1-SataTabl.aml
+21:062  0:021    7. DE2B3190: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2276 -> SSDT-2-Cpu0Ist.aml
+21:079  0:017    8. DE2B3A78: 'SSDT', 'CpuPm', Rev: 1, Len: 2850 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
+21:096  0:016        * DC8F2018: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+21:096  0:000        * DE13CA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x3_0-ApIst.aml
+21:113  0:016        * DE13B018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 D8 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x3_1-Cpu0Cst.aml
+21:152  0:038        * DE13DC18: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_2-ApCst.aml
+21:168  0:016  
+21:168  0:000    Tables in Rsdt: 9
+21:168  0:000    0. DE2A80F0: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+21:188  0:019        (Dsdt: DE2A8178, Facs: DE2B6040)
+21:188  0:000        DE2A8178: 'DSDT', 'A M I', Rev: 2, Len: 41529 -> RSDT-DSDT.aml
+21:202  0:014        DE2B6040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+21:218  0:015    1. DE2B24C8: 'APIC', 'A M I', Rev: 3, Len: 114 -> RSDT-APIC.aml
+21:228  0:009    2. DE2B2540: 'FPDT', 'A M I', Rev: 1, Len: 68 -> RSDT-FPDT.aml
+21:237  0:009    3. DE2B2588: 'MCFG', 'A M I', Rev: 1, Len: 60 -> RSDT-MCFG.aml
+21:247  0:009    4. DE2B25C8: 'SSDT', 'AoacTabl', Rev: 1, Len: 2075 -> RSDT-SSDT-4-AoacTabl.aml
+21:257  0:009    5. DE2B2DE8: 'HPET', 'A M I', Rev: 1, Len: 56 -> RSDT-HPET.aml
+21:271  0:014    6. DE2B2E20: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> RSDT-SSDT-5-SataTabl.aml
+21:290  0:018    7. DE2B3190: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2276 -> RSDT-SSDT-6-Cpu0Ist.aml
+21:299  0:008    8. DE2B3A78: 'SSDT', 'CpuPm', Rev: 1, Len: 2850 -> RSDT-SSDT-7-CpuPm.aml (Found hidden SSDT 4 pcs)
+21:308  0:008        * DC8F2018: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+21:308  0:000        * DE13CA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> RSDT-SSDT-x7_0-ApIst.aml
+21:317  0:008        * DE13B018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 D8 50 6D 52 65 66 00 Internal length = 2107 -> RSDT-SSDT-x7_1-Cpu0Cst.aml
+21:325  0:008        * DE13DC18: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> RSDT-SSDT-x7_2-ApCst.aml
+21:338  0:012  
+21:338  0:000  Found UEFI Acpi 2.0 RSDP at DDD0F000
+21:338  0:000  Printing ACPI tables from RSDP DDD0F000 ...
+21:338  0:000   DDD0F000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:338  0:000    (Xsdt: DE2A8078, Rsdt: DE2A8028)
+21:338  0:000    DE2A8078: 'XSDT', 'A M I', Rev: 1, Len: 108
+21:338  0:000    DE2A8028: 'RSDT', 'A M I', Rev: 1, Len: 72
+21:338  0:000    Tables in Xsdt: 9
+21:338  0:000    0. DE2B23B8: 'FACP', 'A M I', Rev: 5, Len: 268
+21:338  0:000        (Dsdt: DE2A8178, Facs: DE2B6080, XDsdt: DE2A8178, XFacs: 0)
+21:338  0:000        DE2A8178: 'DSDT', 'A M I', Rev: 2, Len: 41529
+21:339  0:000        DE2B6080: 'FACS', Ver: 2, Len: 64
+21:339  0:000    1. DE2B24C8: 'APIC', 'A M I', Rev: 3, Len: 114
+21:339  0:000    2. DE2B2540: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:339  0:000    3. DE2B2588: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:339  0:000    4. DE2B25C8: 'SSDT', 'AoacTabl', Rev: 1, Len: 2075
+21:339  0:000    5. DE2B2DE8: 'HPET', 'A M I', Rev: 1, Len: 56
+21:339  0:000    6. DE2B2E20: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+21:339  0:000    7. DE2B3190: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2276
+21:339  0:000    8. DE2B3A78: 'SSDT', 'CpuPm', Rev: 1, Len: 2850
+21:339  0:000    Tables in Rsdt: 9
+21:339  0:000    0. DE2A80F0: 'FACP', 'A M I', Rev: 2, Len: 132
+21:339  0:000        (Dsdt: DE2A8178, Facs: DE2B6040)
+21:339  0:000        DE2A8178: 'DSDT', 'A M I', Rev: 2, Len: 41529
+21:340  0:000        DE2B6040: 'FACS', Ver: 0, Len: 64
+21:340  0:000    1. DE2B24C8: 'APIC', 'A M I', Rev: 3, Len: 114
+21:340  0:000    2. DE2B2540: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:340  0:000    3. DE2B2588: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:340  0:000    4. DE2B25C8: 'SSDT', 'AoacTabl', Rev: 1, Len: 2075
+21:340  0:000    5. DE2B2DE8: 'HPET', 'A M I', Rev: 1, Len: 56
+21:340  0:000    6. DE2B2E20: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+21:340  0:000    7. DE2B3190: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2276
+21:340  0:000    8. DE2B3A78: 'SSDT', 'CpuPm', Rev: 1, Len: 2850
